@@ -79,8 +79,14 @@ main article:nth-child(1) h2{
 .COMPANY .ico{
   
 display: flex;
+width: 100%;
+justify-content: space-evenly;
 text-align: center;
+}
 
+
+.COMPANY .ico p{
+  font-size: 0;
 }
 
 /* product */
@@ -89,6 +95,7 @@ text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 50px;
 
 }
 
@@ -100,6 +107,14 @@ text-align: center;
   display: flex;
   width: 100%;
   justify-content: space-around;
+}
+
+.PRODUCT .img img{
+  width: 20.588vw;
+}
+
+.PRODUCT .img figcaption{
+  text-align: center;
 }
 
 .NEWS{
@@ -136,4 +151,17 @@ text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  text-indent: 10px;
+}
+
+.CONTACT {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 820px;
+}
+
+.CONTACT .ads{
+  background: url(./images/tel_bg.png) no-repeat;
 }
